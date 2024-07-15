@@ -23,8 +23,8 @@ login_manager = LoginManager(app)
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'gritsenko.cooperation@gmail.com' # поменяй на свою
-app.config['MAIL_DEFAULT_SENDER'] = 'gritsenko.cooperation@gmail.com' # тоже поменяй
+app.config['MAIL_USERNAME'] = 'allo100717@gmail.com' # поменяй на свою
+app.config['MAIL_DEFAULT_SENDER'] = 'allo100717@gmail.com' # тоже поменяй
 app.config['MAIL_PASSWORD'] = 'Your password' or os.getenv('MAIL_PASS')
 mail = Mail(app)
 
